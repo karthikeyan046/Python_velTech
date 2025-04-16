@@ -1,0 +1,31 @@
+# Notes on YouTube Search Programs using Python
+
+These programs use the `youtubesearchpython` library to search and extract data from YouTube.
+
+## 1. Basic YouTube Search Program
+- **Objective**: This program searches for a query and prints the title and link of the top 5 videos.
+- **Key concepts**: `VideosSearch`, `result()`, `for loop`.
+
+## 2. Search YouTube with Video Duration
+- **Objective**: This program extends the basic search to also display the video duration.
+- **Key concepts**: `duration` attribute in search results.
+
+## 3. Search YouTube with Channel Information
+- **Objective**: Displays the video title, link, and the channel information (name and URL).
+- **Key concepts**: Extracting channel data from `video['channel']`.
+
+## 4. Filter and Sort YouTube Videos by View Count
+- **Objective**: Sorts the videos by view count in descending order and displays the top 5.
+- **Key concepts**: Sorting a list of dictionaries, extracting view count.
+
+## 5. Display YouTube Video Description
+- **Objective**: This program shows the video title, link, and a brief description snippet.
+- **Key concepts**: Accessing description data from the search result.
+
+---
+
+### Explanation
+- All programs use the `youtubesearchpython` library, which simplifies extracting YouTube data.
+- You can modify the `query` parameter to search for different keywords, and `limit` can control how many results to fetch.
+
+Feel free to experiment with each script and explore additional functionalities like searching by playlist or filtering by date.
