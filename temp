@@ -1,4 +1,0 @@
-Program_1/README.md
-
-
-num1, num2 = map(float, input("Enter two numbers separated by space: ").split())
