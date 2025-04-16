@@ -1,0 +1,25 @@
+
+==========================
+PYTHON EXERCISES
+==========================
+
+🔹 1. VARIABLES
+
+Exercise 1:
+Create variables to store name, age, and favorite color and print the values
+
+
+----------------------
+Exercise 2:
+write a program to print area of a rectangle.
+Answer:
+
+
+----------------------
+Exercise 3:
+Compare two numbers taking input from the user and print the great number.
+
+----------------------
+Exercise 4:
+Check voting eligibility by getting input of the age
+
