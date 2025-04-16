@@ -1,0 +1,135 @@
+
+==========================
+PYTHON EXERCISES & ANSWERS
+==========================
+
+🔹 1. VARIABLES
+
+Exercise 1.1:
+Create variables to store name, age, and favorite color.
+Answer:
+name = "John"
+age = 20
+favorite_color = "Blue"
+
+print(name)
+print(age)
+print(favorite_color)
+
+----------------------
+Exercise 1.2:
+Swap values of two variables.
+Answer:
+a = 5
+b = 10
+
+print("Before Swap:", a, b)
+a, b = b, a
+print("After Swap:", a, b)
+
+
+🔹 2. OPERATORS
+
+Exercise 2.1:
+Take two numbers and perform arithmetic operations.
+Answer:
+a = 15
+b = 4
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Modulus:", a % b)
+
+----------------------
+Exercise 2.2:
+Find area of a rectangle.
+Answer:
+length = 10
+breadth = 5
+area = length * breadth
+print("Area:", area)
+
+----------------------
+Exercise 2.3:
+Compare two numbers.
+Answer:
+x = 7
+y = 12
+
+print("x == y:", x == y)
+print("x > y:", x > y)
+print("x < y:", x < y)
+
+----------------------
+Exercise 2.4:
+Check voting eligibility.
+Answer:
+age = 19
+is_citizen = True
+
+if age >= 18 and is_citizen:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+
+🔹 3. FUNCTIONS
+
+Exercise 3.1:
+Function that greets the user.
+Answer:
+def greet_user():
+    print("Hello, User!")
+
+greet_user()
+
+----------------------
+Exercise 3.2:
+Function that returns square of a number.
+Answer:
+def square(num):
+    return num * num
+
+print(square(5))
+
+----------------------
+Exercise 3.3:
+Function that returns average of two numbers.
+Answer:
+def average(a, b):
+    return (a + b) / 2
+
+print(average(10, 20))
+
+----------------------
+Exercise 3.4:
+Function to check even number.
+Answer:
+def is_even(num):
+    return num % 2 == 0
+
+print(is_even(4))
+print(is_even(9))
+
+----------------------
+Exercise 3.5 (Challenge):
+Calculator function.
+Answer:
+def calculator(a, b, operator):
+    if operator == '+':
+        return a + b
+    elif operator == '-':
+        return a - b
+    elif operator == '*':
+        return a * b
+    elif operator == '/':
+        return a / b
+    else:
+        return "Invalid operator"
+
+print(calculator(10, 5, '+'))
+print(calculator(10, 5, '-'))
+print(calculator(10, 5, '*'))
+print(calculator(10, 5, '/'))
