@@ -1,0 +1,55 @@
+
+✅ STRING FUNCTION EXERCISE SET
+
+1. INPUT CLEANUP
+----------------
+Ask the user to enter a sentence with leading and trailing spaces.
+Print the cleaned string using strip().
+
+2. CHANGE THE CASE
+------------------
+Convert a user-entered string to:
+- All lowercase
+- All uppercase
+- Title case
+
+3. FIND AND REPLACE
+-------------------
+Ask the user to input a sentence.
+Replace the word "bad" with "good" and print the result.
+
+4. COUNT CHARACTERS
+-------------------
+Count how many times the letter 'a' appears in a given string.
+
+5. WORD SEARCH
+--------------
+Ask the user for a word and a sentence.
+Find the position of the word using find(). Print an appropriate message if not found.
+
+6. SPLIT AND JOIN
+-----------------
+Split a sentence into words.
+Join them back using - as the separator.
+
+7. CHECK WORD VALIDITY
+----------------------
+Ask the user to enter a single word.
+Check and print whether the word contains only alphabets (isalpha()) or only numbers (isnumeric()).
+
+8. STARTS/ENDS WITH CHECK
+-------------------------
+Ask the user to input a sentence.
+Check if the sentence starts with "Hello" and ends with "!".
+
+9. WORD COUNTER
+---------------
+Write a program to count the number of words in a sentence.
+
+10. PASSWORD CHECKER (MINI PROJECT)
+-----------------------------------
+Ask the user to enter a password.
+Check the following:
+- Minimum length of 8 characters
+- Contains at least one number
+- Does not contain any spaces
